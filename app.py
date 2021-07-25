@@ -3,6 +3,7 @@ from flask_cors import CORS,cross_origin
 import requests
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
+from pathlib import Path
 
 app = Flask(__name__)
 
